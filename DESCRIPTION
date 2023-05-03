@@ -1,0 +1,26 @@
+Package: ldap
+Type: Package
+Title: Simplistic LDAP Client in R
+Version: 0.1.0
+Authors@R: 
+    person(given = "Matthew",
+           family = "Schuelke",
+           role = c("aut", "cre"),
+           email = "matt@themadstatter.com",
+           comment = c(ORCID = "0000-0001-5755-1725"))
+Description: Perform LDAP queries in R.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/the-mad-statter/ldap
+BugReports: https://github.com/the-mad-statter/ldap/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    curl,
+    dplyr,
+    tibble,
+    tidyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
