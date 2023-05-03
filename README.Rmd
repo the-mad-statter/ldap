@@ -73,7 +73,7 @@ sticker(
 `r badger::badge_github_actions(action = "Style")`
 `r badger::badge_github_actions(action = "lint")`
 `r badger::badge_github_actions(action = "test-coverage")`
-`r badger::badge_codecov()`
+`r badger::badge_codecov(branch = "main")`
 `r badger::badge_github_actions(action = "R-CMD-check")`
 <!-- badges: end -->
 
